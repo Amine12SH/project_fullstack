@@ -3,7 +3,7 @@ function App() {
   return (
     <>
       <h1>CLIENT</h1>
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/client">
         <Routes>
           <Route path="/" element={<div> hello from client</div>} />
           <Route path="/home" element={<div> hello from client - home</div>} />
